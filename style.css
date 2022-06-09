@@ -23,7 +23,7 @@ body{
       left: calc(100vw - 10rem);
 }
 .record-btn{
-    background-color: red;
+    /* background-color: red; */
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
@@ -39,7 +39,7 @@ body{
     margin: 1rem;
 }
 .capture-btn{
-    background-color: red;
+    /* background-color: red; */
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
@@ -102,4 +102,17 @@ body{
     bottom: 10rem;
    right: 6rem;
    z-index: 2;
+}
+.material-symbols-outlined{
+    color: white;
+    position: absolute;
+    left: 3rem ;
+}
+.capture-btn-cont{
+    height: 5rem;
+    width: 5rem;
+}
+.record-btn-cont{
+    height: 5rem;
+    width: 5rem; 
 }
