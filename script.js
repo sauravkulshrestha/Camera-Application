@@ -28,7 +28,7 @@ let constraints = {
         
         let imageURL = canvas.toDataURL();
         let img = document.createElement("img");
-        img.src = imageURL;
+        img.src = imageURL; //
         document.body.append(img);
         
     });

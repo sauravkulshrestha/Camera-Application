@@ -20,13 +20,14 @@ video{
 }
 .action-cont{
     height: 12rem;
-    width: rem;
+    width: 5rem;
     /* background-color: aquamarine; */
       position: absolute;
       top: calc((100vh - 12rem) / 2);
       left: calc(100vw - 10rem);
-      z-index: 2;
+      z-index: 2; 
 }
+
 .record-btn{
     /* background-color: red; */
     height: 3rem;
