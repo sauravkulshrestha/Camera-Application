@@ -45,7 +45,7 @@ video{
     margin: 1rem;
 }
 .capture-btn{
-    /* background-color: red; */
+    background-color: red;
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
@@ -56,6 +56,9 @@ video{
     color: white;
     left: 3rem;
     z-index: 2;
+}
+.timer{
+    display: none;
 }
 .filter-cont{
     position: absolute;
@@ -102,6 +105,33 @@ video{
 .material-icons{
     color:white;
     font-size: 3rem;
+}
+
+.scale-capture{
+    animation-name: scale-capture;
+    animation-iteration-count: 1;
+    animation-duration: 0.5;
+}
+@keyframes scale-capture {
+    0%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.scale-record{
+    animation-name: scale-record;
+    animation-iteration-count: 1;
+    animation-duration: 0.5;
+}
+@keyframes scale-record {
+    0%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1.2);
+    }
 }
 
 .gallery{
