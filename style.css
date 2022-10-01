@@ -9,8 +9,8 @@ body{
     padding: 0;
 }
 .video-cont{
-    height: 100vh;
-    width: 100vw;
+    height: 120vh;
+    width: 120vw;
     background-color: black;
 }
 
@@ -20,7 +20,7 @@ video{
 }
 .action-cont{
     height: 12rem;
-    width: 5rem;
+    width: 8rem;
     /* background-color: aquamarine; */
       position: absolute;
       top: calc((100vh - 12rem) / 2);
@@ -30,8 +30,8 @@ video{
 
 .record-btn{
     /* background-color: red; */
-    height: 3rem;
-    width: 3rem;
+    height: 4rem;
+    width: 4rem;
     border-radius: 50%;
 }
 .action-cont>*{
@@ -80,13 +80,13 @@ video{
 
 
 .orange{
-    background-color: #ffa50052;
+    background-color: #ffa50072;
 }
 .brown{
-    background-color:#a52a2a59 ;
+    background-color:#a52a2a99 ;
 }
 .pink{
-    background-color:#ffc0cb57 ;
+    background-color:#ffc0cb87 ;
 }
 .transparent{
     background-color: transparent;
